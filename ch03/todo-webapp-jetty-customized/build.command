@@ -1,0 +1,2 @@
+gradle appRun
+gradle jettyRun

@@ -1,0 +1,2 @@
+setDescription("myProj")
+println "Description of project $name: " + project.description
