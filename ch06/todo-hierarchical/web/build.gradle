@@ -1,0 +1,12 @@
+apply plugin: 'war'
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   compile project(':repository')
+   providedCompile 'javax.servlet:servlet-api:2.5'
+   runtime 'javax.servlet:jstl:1.1.2'
+}
